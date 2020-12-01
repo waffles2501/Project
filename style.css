@@ -7,6 +7,7 @@ button{
   background-color: gray;
   border: none;
 }
+
 body
 {
   background-color: gray;
@@ -49,3 +50,7 @@ li a:hover:not(.active) {
   background-color: yellow;
   color: black;
 }
+@media screen and (max-width: 600px) {
+  button {
+    width: 100%;
+  }
