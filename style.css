@@ -14,8 +14,14 @@ p
 {
   font-size: 10px;
   padding: 0;
+  text-align: center;
 }
 h1
+{
+  text-align: center;
+  color: yellow;
+}
+h3
 {
   text-align: center;
   color: yellow;
@@ -27,7 +33,6 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
-
 li {
   float: left;
 }
@@ -48,11 +53,6 @@ li a:hover:not(.active) {
   background-color: yellow;
   color: black;
 }
-@media screen and (max-width: 600px) {
-  button {
-    width: 100%;
-  }
-}
 .column {
   float: left;
   width: 16%;
@@ -61,4 +61,22 @@ li a:hover:not(.active) {
   content: "";
   display: table;
   clear: both;
+}
+.characterColumn{
+  float: left;
+  width: 25%;
+}
+.icon
+{
+  width: 40%;
+  height: 40%;
+  padding: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption{
+  padding: 10px;
 }
