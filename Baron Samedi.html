@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Baron Samedi Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Magical_Icon.png" class="center" alt="Magical"></div>
           <figcaption>Magical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Vivid Gaze</h4><h5>Baron Samedi animates two skulls, both which briefly warm up before firing two beams of voodoo magic that damage enemies. The beams crossover wherever Baron Samedi was aiming. Enemies hit by both beams take 15% damage on the second hit. If the enemy god hit is above 30 Hysteria, their Physical Power, Magical Power, and Attack Speed are reduced.</h5>")'><img src = "images/Baron Samedi/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Consign Spirits</h4><h5>Baron Samedi guides restless spirits to the ground and buries them. After a brief delay the ground erupts, damaging enemies standing in the area. If an enemy god is hit, friendly spirits fly from the area and heal allies near the explosion or by Baron Samedi. If the enemy god hit is above 30 Hysteria the friendly spirit cleanses ally slow effects, and increases their Movement Speed.</h5>")'><img src = "images/Baron Samedi/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Wrap It Up</h4><h5>Baron Samedi throws his snake forward, wrapping any enemy god hit and dealing damage every .5s for 2.5s and applying a ramp to root. If a god hit is above 30 Hysteria, the snake will also lash out at nearby enemy gods who stand too close after 1s. Enemies hit by this are injected with venom that applies a ramp to root and deals the full damage over time immediately.</h5>")'><img src = "images/Baron Samedi/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Life of the Party</h4><h5>Baron Samedi pulls the souls of the living towards his Coffin, becoming immune to Crowd Control and taking 35% reduced damage. Enemy gods within range are caught in a Vortex, dragging them towards the Coffin and taking damage every .33s. When an enemy god gets too close to the Coffin their soul is ripped out, causing them to be stunned, take a large amount of damage based on their maximum health and gain max Hysteria. This ability persists for 3.5s or until an enemy god is pulled to the Coffin. If targets being pulled are above 30 Hysteria, the pull strength is increased.</h5>")'><img src = "images/Baron Samedi/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Hysteria</h4><h5>Baron shares Baron&#8217;s Brew, a powerful restorative chalice, with his allies from the Item Shop. Enemies hit by Baron will have Hysteria applied to them. Baron&#8217;s abilities interact with Hysteria to provide bonus effects. Targets at Max Hysteria take 20% additional damage from Baron Samedi.</h5>")'><img src = "images/Baron Samedi/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Vivid Gaze</h4><h5>Baron Samedi animates two skulls, both which briefly warm up before firing two beams of voodoo magic that damage enemies. The beams crossover wherever Baron Samedi was aiming. Enemies hit by both beams take 15% damage on the second hit. If the enemy god hit is above 30 Hysteria, their Physical Power, Magical Power, and Attack Speed are reduced.</h5>
       </div>
     </main>
   </body>

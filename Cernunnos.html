@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Cerunnos Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Shifter of Seasons</h4><h5>Cernnunos imbues his glaive with the power of the 4 seasons. Activating this ability rotates him through 4 different bonuses to his basic attacks. Spring Growth: Bonus Physical Lifesteal Summer Heat: Bonus Damage Autumn Decay: Debuff for 5s Winter Chill: Slows for 1s</h5>")'><img src = "images/Cernunnos/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Bramble Blast</h4><h5>Cernunnos fires a bramble forward in a line that roots a single enemy hit. Upon hitting an enemy, wall, or reaching max range it will explode dealing damage and spawning an area of brambles at the location. This area deals damage every .5s and persists for 5s.</h5>")'><img src = "images/Cernunnos/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Horn Charge</h4><h5>Cernunnos charges forward, damaging and crashing through all types of enemies.</h5>")'><img src = "images/Cernunnos/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>The Wild Hunt</h4><h5>Cernunnos selects an area where The Wild Hunt will begin. After a 1s delay, enemy gods in the area will be damaged and Polymorphed into wild boars. Polymorphed gods are silenced, disarmed and slowed. Polymorph is not affected by diminishing returns.</h5>")'><img src = "images/Cernunnos/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Heavy Glaive</h4><h5>Cernunnos wields a Glaive as a weapon. His basic attacks deal additional damage to all enemies in melee range while he is throwing it. The additional damage from Heavy Glaive does not trigger any effects from items or abilities. It also can not Critical Strike.</h5>")'><img src = "images/Cernunnos/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Shifter of Seasons</h4><h5>Cernnunos imbues his glaive with the power of the 4 seasons. Activating this ability rotates him through 4 different bonuses to his basic attacks. Spring Growth: Bonus Physical Lifesteal Summer Heat: Bonus Damage Autumn Decay: Debuff for 5s Winter Chill: Slows for 1s</h5>
       </div>
     </main>
   </body>

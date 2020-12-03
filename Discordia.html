@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Discordia Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Magical_Icon.png" class="center" alt="Magical"></div>
           <figcaption>Magical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Unruly Magic</h4><h5>Discordia sends an orb of unruly magic to a location that damages any enemies it hits along the way. At that location it will break down into 6 minor projectiles that fire out in all directions, damaging any enemies hit and bouncing off of walls.</h5>")'><img src = "images/Discordia/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Strife</h4><h5>Discordia creates an area of Strife that damages all enemies hit. If 2 or more enemy gods are hit at the same time they will be afflicted by Madness for 1s, forcing them to attack each other for additional damage. The same is true for minions. If only a single target of one type is hit then it becomes Rooted for 1s instead.</h5>")'><img src = "images/Discordia/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Erratic Behavior</h4><h5>Discordia leaps a short distance and then creates an area of confusion where she lands that persists for 5s. While inside the area she becomes stealthed, gains bonus movement speed, and Her 1st and 2nd ability cooldowns are decreased by an additional amount of time every .5s she remains in the area. Attacking from the area will briefly reveal her.</h5>")'><img src = "images/Discordia/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Golden Apple of Discord</h4><h5>Discordia throws her Golden Apple of Discord that damages and passes through minions and bounces off of walls. If the Apple hits an enemy god it will damage them and force them to hold the Apple. Gods holding the apple will become intolerable, causing them to be Crippled, Intoxicated while they constantly boast. At the end of the duration, the Apple will detonate, dealing damage and spreading the effects to nearby gods.</h5>")'><img src = "images/Discordia/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Contest of Gods</h4><h5>Discordia is constantly comparing herself and her teammates to see who is the best. Whichever god on her team has the top damage dealt to enemy players will receive a Power buff that scales off Discordia&#8217;s level.</h5>")'><img src = "images/Discordia/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Unruly Magic</h4><h5>Discordia sends an orb of unruly magic to a location that damages any enemies it hits along the way. At that location it will break down into 6 minor projectiles that fire out in all directions, damaging any enemies hit and bouncing off of walls.</h5>
       </div>
     </main>
   </body>

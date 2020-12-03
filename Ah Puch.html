@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Ah Puch Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Magical_Icon.png" class="center" alt="Magical"></div>
           <figcaption>Magical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick="changeText('<h4>Undead Surge</h4><h5>Ah Puch raises up to two decaying corpses from the underworld that surge forward exploding on anything they touch, when they reach max distance, or when Ah Puch reactivates Undead Surge dealing damage and slowing targets hit. Enemies hit also have their healing received lowered by 40% for 5s. The corpses collapse after exploding remaining behind.</h5>')"><img src = "images/Ah Puch/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick="changeText('<h4>Corpse Explosion</h4><h5>Ah Puch causes the target area to explode dealing damage. Corpse Explosion also causes any decaying corpses in the area to explode.</h5>')"><img src = "images/Ah Puch/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Fleeting Breath</h4><h5>Ah Puch throws a charm from the underworld which awakens a decaying corpse that applies miasma to targets in an area and falls to the ground, remaining behind. Targets take damage every second. After the duration, targets take additional damage and are stunned if they were healed by an ability during the initial duration.</h5>")'><img src = "images/Ah Puch/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Empty the Crypts</h4><h5>Ah Puch unleashes an army of Wraiths from the Ninth Hell that swarm forward and reduce healing and deal damage to enemies they collide with.</h5>")'><img src = "images/Ah Puch/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Hollow Ground</h4><h5>Ah Puch is closely attuned with the dead and may exhume corpses at his will. When walking over a decaying corpse, Ah Puch lowers the cooldown of Undead Surge and Corpse Explosion by 2s, restores 5% of his maximum Health and 3% of his maximum Mana.</h5>")'><img src = "images/Ah Puch/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Undead Surge</h4><h5>Ah Puch raises up to two decaying corpses from the underworld that surge forward exploding on anything they touch, when they reach max distance, or when Ah Puch reactivates Undead Surge dealing damage and slowing targets hit. Enemies hit also have their healing received lowered by 40% for 5s. The corpses collapse after exploding remaining behind.</h5>
       </div>
     </main>
   </body>

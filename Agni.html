@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Agni Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Magical_Icon.png" class="center" alt="Magical"></div>
           <figcaption>Magical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick="changeText('<h4>Noxious Fumes</h4><h5>Agni summons a cloud of noxious fumes at his ground target location, doing damage every second. Firing any of Agni's abilities into the fumes detonates the gas, Stunning all enemies in the radius.</h5>')"><img src = "images/Agni/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick="changeText('<h4>Flame Wave</h4><h5>Agni summons a wave of fire in front of him that scorches all enemies in its path. Ignites Noxious Fumes.</h5>')"><img src = "images/Agni/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Path of Flames</h4><h5>Agni blazes a path forward in a quick dash, leaving flames trailing behind him. Any enemies passing through the flames catch fire and burn for damage every .5s for 2s. Ignites Noxious Fumes. Agni is immune to Knockback while dashing.</h5>")'><img src = "images/Agni/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Rain Fire</h4><h5>Every 18 seconds, Agni gains a flaming halo that can be expended to summon a giant meteor at his ground target location. He can summon 1 every .8 seconds. Ignites Noxious Fumes.</h5>")'><img src = "images/Agni/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Combustion</h4><h5>After hitting with 4 Basic Attacks, Agni will gain a Buff. On the next cast of Flame Wave or Rain Fire, all enemies hit by those abilities will be additionally set ablaze, taking damage every .5s for 3s.</h5>")'><img src = "images/Agni/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Noxious Fumes</h4><h5>Agni summons a cloud of noxious fumes at his ground target location, doing damage every second. Firing any of Agni's abilities into the fumes detonates the gas, Stunning all enemies in the radius.</h5>
       </div>
     </main>
   </body>

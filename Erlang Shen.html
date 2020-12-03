@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Erlang Shen Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Spot Weakness</h4><h5>Erlang Shen opens his third eye and analyzes the enemy&#8217;s strengths and weaknesses. When activated, Erlang Shen gains additional Physical Damage on each strike. If the buff effect has ended and the ability is on Cooldown, successful Basic Attacks reduce the Cooldown of this ability by 1s.</h5>")'><img src = "images/Erlang Shen/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Pin</h4><h5>Erlang Shen launches a spear that damages enemies on impact. Enemies in the dead center of the effect when it lands are Rooted in place.</h5>")'><img src = "images/Erlang Shen/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>72 Transformations</h4><h5>Erlang Shen transforms into a Mink or Turtle and charges forward. Mink: Damages all enemies, stopping on first god hit and increasing Attack Speed for 4s. Turtle: Knocks up all enemies in path and gains a health shield for 12s.</h5>")'><img src = "images/Erlang Shen/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>9 Turns Blessing</h4><h5>Erlang Shen Taunts nearby Enemy gods, gaining Damage Mitigation for the next 4s. Afterwards, if Erlang Shen is still alive he is Healed for a flat amount plus 15% of his Maximum Health.</h5>")'><img src = "images/Erlang Shen/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Howling Celestial Dog</h4><h5>Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 15% of his Basic Attack power and 1% of the target&#8217;s max. health. The percentage damage only works against gods and minions.</h5>")'><img src = "images/Erlang Shen/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Spot Weakness</h4><h5>Erlang Shen opens his third eye and analyzes the enemy&#8217;s strengths and weaknesses. When activated, Erlang Shen gains additional Physical Damage on each strike. If the buff effect has ended and the ability is on Cooldown, successful Basic Attacks reduce the Cooldown of this ability by 1s.</h5>
       </div>
     </main>
   </body>

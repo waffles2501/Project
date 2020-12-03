@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Apollo Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>So Beautiful</h4><h5>Apollo strums a single chord on his lyre. It&#8217;s so beautiful it hurts, and all enemies in a long range line take damage.</h5>")'><img src = "images/Apollo/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Serenade</h4><h5>Apollo uses his amazing voice to Mesmerize all nearby enemies and bolster himself with additional physical protection. Any damage done breaks the effect.</h5>")'><img src = "images/Apollo/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>The Moves</h4><h5>Apollo runs forward and slides on his knees, dealing damage, knocking aside all enemies and adding a stack of Audacity for each enemy hit. At the end of the slide, the movement speed is decreased for enemies and increased for himself and allies.</h5>")'><img src = "images/Apollo/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Across The Sky</h4><h5>Apollo rides his chariot across the sky, choosing when to land, dealing damage every .2s for .8s as he lands. Enemies hit by the last tick of the landing will also be knocked up.</h5>")'><img src = "images/Apollo/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Audacity</h4><h5>After 10 successful Basic Attacks, Apollo gains Audacity, increasing his Attack Speed by 100% for the next 5 Basic Attacks (hit or miss) he makes. Apollo also gains 2 stacks of Audacity for each successful damaging ability on Enemy gods.</h5>")'><img src = "images/Apollo/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>So Beautiful</h4><h5>Apollo strums a single chord on his lyre. It&#8217;s so beautiful it hurts, and all enemies in a long range line take damage.</h5>
       </div>
     </main>
   </body>

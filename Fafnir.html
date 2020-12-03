@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Fafnir Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Magical_Icon.png" class="center" alt="Magical"></div>
           <figcaption>Magical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Cursed Strength</h4><h5>Fafnir hurls his hammer forward, dealing damage to enemies in its path. If Fafnir hits a god the hammer stops short and Stuns them. The Stunned god also radiates out a cursed pulse, Slowing them and nearby enemies by 20% for 3s. In dragon form, this ability deals increased damage that ticks 3 times over 3s. Also, the cursed pulse shreds Protections in addition to Slowing.</h5>")'><img src = "images/Fafnir/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Coerce</h4><h5>Fafnir coerces his allies into fighting harder, boosting Attack Speed for 5s and healing himself. While Coerce is active Fafnir deals bonus Magic Damage whenever the affected ally damages an enemy. In dragon form, this ability has a larger area of effect and can buff multiple allies.</h5>")'><img src = "images/Fafnir/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Underhanded Tactics</h4><h5>Fafnir leaps to a target location and executes a despicable strike, dealing damage and disarming enemies in front of him for 2s. In dragon form, Fafnir can leap much further. Also, this ability deals increased damage that ticks three times over 3s and Fafnir Stuns the enemy god closest to him for 2s in addition to Disarming. </h5>")'><img src = "images/Fafnir/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Draconic Corruption</h4><h5>Fafnir transforms into a terrifying dragon and is untargetable during the process. When he emerges in dragon form, he regains 200 Mana and nearby enemies become poisoned, taking damage three times over 3s. He remains in this form for a duration or until the ability is activated again. As a dragon, his abilities have additional effects and his basic attack changes to a Dragon Breath that deals damage 3 times per second. Dragon Breath can not proc item hit effects.</h5>")'><img src = "images/Fafnir/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Endless Greed</h4><h5>Fafnir gains 2 bonus gold from all enemy kills and assists, including minions. Fafnir also gains bonus Protections based on the amount of gold he is currently holding. The bonuses gained from this ability are capped at 1000 gold in hand.</h5>")'><img src = "images/Fafnir/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Cursed Strength</h4><h5>Fafnir hurls his hammer forward, dealing damage to enemies in its path. If Fafnir hits a god the hammer stops short and Stuns them. The Stunned god also radiates out a cursed pulse, Slowing them and nearby enemies by 20% for 3s. In dragon form, this ability deals increased damage that ticks 3 times over 3s. Also, the cursed pulse shreds Protections in addition to Slowing.</h5>
       </div>
     </main>
   </body>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Anhur Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick="changeText('<h4>Shifting Sands</h4><h5>Anhur erects an obelisk from the ground, blocking all player movement. The surrounding sands Slow enemies and increase the damage of Anhur's Basic Attacks against targets in the sands.</h5>')"><img src = "images/Anhur/Abilities/1_Icon.png"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick="changeText('<h4>Impale</h4><h5>Anhur hurls his spear with great might. If the spear hits a god, they take damage and are knocked back. Gods knocked back into a wall are Stunned. Enemies hit by the pushed god take damage. The spear passes through minions, doing damage to them as well.</h5>')"><img src = "images/Anhur/Abilities/2_Icon.png"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Disperse</h4><h5>Anhur leaps to his ground target location, doing damage and knocking back all enemies in the radius where he lands.</h5>")'><img src = "images/Anhur/Abilities/3_Icon.png"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Desert Fury</h4><h5>Summoning the fury of the desert, Anhur hunkers down and throws empowered spears that pass through everything, doing damage to all enemies in their path. He is immune to Crowd Control for the duration.</h5>")'><img src = "images/Anhur/Abilities/4_Icon.png"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Enfeeble</h4><h5>Anhur&#8217;s spear attacks reduce the enemy target&#8217;s Physical Protection for 3 seconds.</h5>")'><img src = "images/Anhur/Abilities/Passive_Icon.png"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Shifting Sands</h4><h5>Anhur erects an obelisk from the ground, blocking all player movement. The surrounding sands Slow enemies and increase the damage of Anhur's Basic Attacks against targets in the sands.</h5>
       </div>
     </main>
   </body>

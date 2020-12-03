@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Achilles Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Physical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick="changeText('<h4>Shield of Achilles</h4><h5>Achilles punches forward with the edge of his Shield, inflicting massive damage and stunning enemy targets hit by the impact. The force of his punch continues to radiate past his initial target area, dealing 85% damage to targets farther away.</h5>')"><img src = "images/Achilles/Abilities/1_Icon.png"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick="changeText('<h4>Radiant Glory</h4><h5>Achilles is blessed by the gods, giving him bonus Physical Power, Protections, and Crowd Control Reduction for 6 seconds. While this blessing is active, Achilles will heal himself upon successfully damaging enemies with abilities.</h5>')"><img src = "images/Achilles/Abilities/2_Icon.png"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Combat Dodge</h4><h5>Achilles dodges his enemies&#8217; attacks before striking them in swift response. If Achilles successfully hits an enemy god with this strike, Achilles can use this ability once more before it goes on Cooldown.</h5>")'><img src = "images/Achilles/Abilities/3_Icon.png"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Fatal Strike</h4><h5>Achilles dashes forward and attacks. While dashing, Achilles will pass through minions, stop and hit the first enemy god he encounters, dealing damage to all he hits and executing gods below 30% Health. If Achilles kills a god with this ability, he can use it again, up to 5 times. As Achilles successfully Executes his enemies, he becomes more reckless in combat and leaves his heel exposed. Achilles will become more susceptible to damage, stacking up to 5 times.</h5>")'><img src = "images/Achilles/Abilities/4_Icon.png"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Gift of the Gods</h4><h5>Achilles adapts to the tide of Battle. While in the Fountain, Achilles can choose to wear armor, granting him bonus Health and Protections, or forgo it, granting him bonus Movement Speed and Physical Power. To swap, use Achilles&#8217; Basic Attack while the Passive targeter is active. </h5>")'><img src = "images/Achilles/Abilities/Passive_Icon.png"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Shield of Achilles</h4><h5>Achilles punches forward with the edge of his Shield, inflicting massive damage and stunning enemy targets hit by the impact. The force of his punch continues to radiate past his initial target area, dealing 85% damage to targets farther away.</h5>
       </div>
     </main>
   </body>

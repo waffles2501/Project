@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Da Ji Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Horrible Burns</h4><h5>Da Ji heats up her claws, causing her next successfully hit Basic Attack to burn the target, dealing instant bonus damage, additional damage every 1s for 3s and Slowing them for 3s. Da Ji gains Haste when this ability activates, which lasts until she hits a target.</h5>")'><img src = "images/Da Ji/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>One Thousand Cuts</h4><h5>Da Ji lashes out with her claws at nearby enemies, executing 4 strikes that damage all enemies in range and apply the Bleed from Torture Blades. While this ability is channeling Da Ji moves freely in all directions, gains 40% increased Movement Speed, immunity to Slows and Knockups, and her tails mitigate Damage dealt to her by Enemy Gods who are behind her.</h5>")'><img src = "images/Da Ji/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Trickster Spirit</h4><h5>Da Ji selects a single allied or enemy target and teleports to their location after a short delay. Upon arriving at the target, she lashes out with her claws, dealing damage and applying the Bleed from Torture Blades to all enemies around her.</h5>")'><img src = "images/Da Ji/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Paolao</h4><h5>Da Ji selects a single allied or enemy target and teleports to their location after a short delay. Upon arriving at the target, she lashes out with her claws, dealing damage and applying the Bleed from Torture Blades to all enemies around her.</h5>")'><img src = "images/Da Ji/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Torture Blades</h4><h5>Da Ji Summons her signature torture device, the Paolao. As she hovers above the device she may fire up to 3 shots. Enemy gods hit take damage and become Chained and Slowed. At the end of her ability Chained enemies are pulled to the Paolao becoming Stunned and then taking damage 3 times over 2s. If a god hit by this ability becomes Crowd Control Immune at any time, they break the Chain on them and cannot be Chained again until this ability ends.</h5>")'><img src = "images/Da Ji/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Horrible Burns</h4><h5>Da Ji heats up her claws, causing her next successfully hit Basic Attack to burn the target, dealing instant bonus damage, additional damage every 1s for 3s and Slowing them for 3s. Da Ji gains Haste when this ability activates, which lasts until she hits a target.</h5>
       </div>
     </main>
   </body>

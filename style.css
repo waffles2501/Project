@@ -80,3 +80,10 @@ li a:hover:not(.active) {
 figcaption{
   padding: 10px;
 }
+.abilityColumn{
+  float: left;
+  width: 20%;
+}
+Cthuvian{
+  color: #9932CC
+}

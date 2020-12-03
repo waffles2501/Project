@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Chaac Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Thunder Strike</h4><h5>Chaac throws his axe forward, damaging all enemies in a radius around its landing location. The axe remains idle in the ground for 5s or until another ability is used.</h5>")'><img src = "images/Chaac/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Torrent</h4><h5>Chaac spins his axe around him, damaging all enemies, and gaining Protections for each enemy hit (max. 5). Gods hits provide 2 stacks. If his axe is out from Thunder Strike, he will first dash to the axe location, doing 50% base damage to enemies he passes through and then executing his spin attack. This dash can go through walls.</h5>")'><img src = "images/Chaac/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Rain Dance</h4><h5>Chaac summons a rainstorm around his current location for 6s. While it rains, he regains Health, and enemies are caught in the mud and have their Movement Speed and Attack Speed reduced. If his axe is out from Thunder Strike, a rainstorm will also spawn at that location. Enemies caught in the area of both rainstorms will have the Movement Slow and Attack Speed Reduction applied twice.</h5>")'><img src = "images/Chaac/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Storm Call</h4><h5>Chaac charges up his lightning axe for a short duration then unleashes a blast, Silencing, Knocking Up and damaging all enemies around him. While charging up, Chaac has 50% Damage Mitigation and is immune to Crowd Control effects.</h5>")'><img src = "images/Chaac/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Overflow</h4><h5>After 5 successful Basic Attacks, the next ability Chaac uses costs no Mana and has its cooldown reduced by 2s.</h5>")'><img src = "images/Chaac/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Thunder Strike</h4><h5>Chaac throws his axe forward, damaging all enemies in a radius around its landing location. The axe remains idle in the ground for 5s or until another ability is used.</h5>
       </div>
     </main>
   </body>

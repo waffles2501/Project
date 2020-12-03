@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Cthulhu Home Page</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="Cthulhu.html">Cthulhu</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Cthulhu</h1>
+      <h3>The Great Dreamer</h3>
+      <div class = "row">
+        <div class = "characterColumn">
+          <div class ="icon"><img src = "images/Icons/Guardian_Icon.png" class="center" alt="Guardian"></div>
+          <figcaption>Guardian</figcaption>
+        </div>
+        <div class = "characterColumn">
+          <div class ="icon"><img src = "images/Icons/Great Old Ones_Icon.png" class="center" alt="Great Old Ones"></div>
+          <figcaption>Great Old Ones</figcaption>
+        </div>
+        <div class = "characterColumn">
+          <div class ="icon"><img src = "images/Icons/Melee_Icon.png" class="center" alt="Melee"></div>
+          <figcaption>Melee</figcaption>
+        </div>
+        <div class = "characterColumn">
+          <div class ="icon"><img src = "images/Icons/Magical_Icon.png" class="center" alt="Magical"></div>
+          <figcaption>Magical</figcaption>
+        </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Sanity Break</h4><h5>Cthulhu sends out a terrifying blast of energy, dealing damage to all enemies hit and reducing their Attack Speed. Enemies hit by this ability also do reduced damage to Cthulhu for 6s. This ability applies 1 stack of Torment, 2 if the enemy hit is facing Cthulhu or Fears them instead if they are afflicted with Insanity. Successfully consuming Insanity permanently increases the base mitigation of this ability.</h5>")'><img src = "images/Cthulhu/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>The Mire</h4><h5>Cthulhu summons a portal creating a slowing field of eldritch mire at the target location. While Cthulhu channels, The Mire continues to grow as the portal fires out two masses of corruption that hit and damage all enemies in the field. The first shot also Slows enemies while the second Roots them, both hits applying 1 stack of Torment. Cancelling the ability early stops The Mire from growing or the portal from firing additional shots.</h5>")'><img src = "images/Cthulhu/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Rushing Terror</h4><h5>Cthulhu creates two twisting projectiles at his sides as he unfurls his wings and charges forwards, damaging, stunning and knocking away enemies hit. The projectiles follow at a slightly slower pace but travel further, damaging enemies as well. Enemies hit by Cthulhu or the projectiles gain 1 stack of Torment.</h5>")'><img src = "images/Cthulhu/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Descend into Madness</h4><h5>Cthulhu reveals his true form as he plunges the battlefield into R&#8217;lyeh while any enemies caught nearby are damaged. In this form Cthulhu gains increased Health, becomes immune to Crowd Control and gains access to new abilities. Enemies near Cthulhu gain stacks of Torment, increasing in pace if they are facing him. Enemies also suffer the debuff effects of Sanity Break, causing them to deal less damage to Cthulhu. <Cthuvian>Ph&#8217;nglui mglw&#8217;nafh Cthulhu R&#8217;lyeh wgah&#8217;nagl fhtagn.</Cthuvian></h5>")'><img src = "images/Cthulhu/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Prey on Fear</h4><h5>Cthulhu breaks down the mental fortitude of enemy gods, applying stacks of Torment with abilities and the final hit of his basic attack chain. On reaching 4 stacks of Torment, enemies are afflicted by Insanity. Additionally, Cthulhu gains Magical Power per nearby enemy god with Insanity.</h5>")'><img src = "images/Cthulhu/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Sanity Break</h4><h5>Cthulhu sends out a terrifying blast of energy, dealing damage to all enemies hit and reducing their Attack Speed. Enemies hit by this ability also do reduced damage to Cthulhu for 6s. This ability applies 1 stack of Torment, 2 if the enemy hit is facing Cthulhu or Fears them instead if they are afflicted with Insanity. Successfully consuming Insanity permanently increases the base mitigation of this ability.</h5>
+      </div>
+    </main>
+  </body>
+</html>

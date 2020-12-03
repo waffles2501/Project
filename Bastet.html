@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Bastet Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Pounce</h4><h5>Bastet pounces to her target location, damaging enemies within the radius. For 4 seconds after pouncing, you can press the button again to pounce back to your initial location. Bastet moves 25% faster while in the return pounce state. If Guardians of Bast is active, she will command her guardians to also pounce with her.</h5>")'><img src = "images/Bastet/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Razor Whip</h4><h5>Bastet swipes at her enemies, causing them to Bleed for damage every second for the duration. If Guardians of Bast is active, she will command her guardians to also swipe at her enemies.</h5>")'><img src = "images/Bastet/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Ensnaring Claw</h4><h5>Bastet sends a cat forward at her enemies. If a cat finds an enemy it ensnares them, damaging them and rooting them for .5s. The cat persists for 4s or until defeated, continuing to attack nearby enemies. The cats attacks will apply a 2s slow to the enemy. If Guardians of Bast is active, she will command her guardians to also charge forward.</h5>")'><img src = "images/Bastet/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Guardians of Bast</h4><h5>Bastet calls her loyal Guardian cats to her side. These Guardians will follow Bastet&#8217;s order, assisting her in any ability she casts and dealing a percentage of Bastet&#8217;s damage.</h5>")'><img src = "images/Bastet/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Tracking Scent</h4><h5>When Bastet hits an enemy she marks the target for a brief time. Marked targets leave behind a scent trail Bastet can follow, gaining Movement Speed while in the scent trail.</h5>")'><img src = "images/Bastet/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Pounce</h4><h5>Bastet pounces to her target location, damaging enemies within the radius. For 4 seconds after pouncing, you can press the button again to pounce back to your initial location. Bastet moves 25% faster while in the return pounce state. If Guardians of Bast is active, she will command her guardians to also pounce with her.</h5>
       </div>
     </main>
   </body>

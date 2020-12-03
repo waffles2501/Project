@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Chernobog Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Crystallized Curses</h4><h5>Chernobog conjures a large crystal of curses and hurls it at the target location dealing damage on landing. After several seconds the crystalline curses explode dealing damage again and rooting any enemy in the area. The crystal can be detonated early by firing at it with Vicious Barrage. </h5>")'><img src = "images/Chernobog/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Vicious Barrage</h4><h5>Chernobog fires an enlarged crystal shard that can pierce enemies and deals damage like a Basic Attack. This applies a single stack of Heart of Cold to all enemies it passes through and instantly detonates Crystallized Curses. After firing, Chernobog gains increased Attack Speed for several seconds.</h5>")'><img src = "images/Chernobog/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Into Darkness</h4><h5>Chernobog dashes forward, dealing damage and slowing any enemy he collides with for 2s. If Chernobog comes in contact with a wall, he briefly enters it as a shadow, becoming untargetable and immune to damage for up to 3s. Chernobog can leave the wall early by dashing or just stepping out of the wall. If he remains for the full duration, Chernobog will automatically dash out as his time expires.</h5>")'><img src = "images/Chernobog/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Living Nightmare</h4><h5>During a brief channeling period, Chernobog summons shadows at the location of all enemies that last for 8s and apply a short stacking Slow. Chernobog can select any of his shadow clones to fly towards. Once he reaches the location he takes the place of his shadow, refreshing his cooldowns, as well as temporarily obtaining damage mitigations and extra movement speed.</h5>")'><img src = "images/Chernobog/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Heart of Cold</h4><h5>Every successful Basic Attack impales the enemy with a brittle crystal. Upon reaching 3 stacks of Heart of Cold, the enemy explodes for extra damage in an area around them (This damage does not trigger Item effects).</h5>")'><img src = "images/Chernobog/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Crystallized Curses</h4><h5>Chernobog conjures a large crystal of curses and hurls it at the target location dealing damage on landing. After several seconds the crystalline curses explode dealing damage again and rooting any enemy in the area. The crystal can be detonated early by firing at it with Vicious Barrage. </h5>
       </div>
     </main>
   </body>

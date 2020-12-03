@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Chronos Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Magical_Icon.png" class="center" alt="Magical"></div>
           <figcaption>Magical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Time Rift</h4><h5>Chronos creates a rift in time, damaging all enemies in the area.</h5>")'><img src = "images/Chronos/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Accelerate</h4><h5>Chronos accelerates himself over time, allowing him to move faster initially and gain speed over time. While active, his Attack Speed is increased. This ability also stops the Wheel of Time. Section I: Heal 1.5% Max Health Per Second. Section II: 100% Mana Refund On Abilities. Section III: +25% Magical Power. Section IV: +35% Magical Power Contribution to Basic Attacks.</h5>")'><img src = "images/Chronos/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Stop Time</h4><h5>Shooting forward spinning gears of time, any enemies hit by Chronos&#8217; attack have their Attack Speed reduced and Ramp to a Stun, taking damage on the initial hit and again when they are stunned.</h5>")'><img src = "images/Chronos/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Rewind</h4><h5>Chronos travels through time to where he was 8 seconds ago, gaining Health and Mana back to the values of that time. All of his Cooldowns are instantly reset as well.</h5>")'><img src = "images/Chronos/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Time Lord</h4><h5>Chronos becomes empowered as time flows around him. Every 2 minutes he gains a stack that increases his Magical Power. Stacks up to 25 times, stacks are permanent.</h5>")'><img src = "images/Chronos/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Time Rift</h4><h5>Chronos creates a rift in time, damaging all enemies in the area.</h5>
       </div>
     </main>
   </body>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Bakasura Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Take Down</h4><h5>Bakasura leaps to his ground target location, dealing damage to all enemies in the area and increases the damage they take from all sources by 10% for 3s.</h5>")'><img src = "images/Bakasura/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Eat Minion</h4><h5>Bakasura grabs a minion and devours it, healing himself and gaining a Protections Buff. Large Jungle monsters must be at 33% Health to be eaten, but will provide 2 minions toward Regurgitate. Up to 6 minions can be stored for Regurgitate.</h5>")'><img src = "images/Bakasura/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Butcher Blades</h4><h5>Bakasura passively gains Physical Power. When activated, he gains additional true damage on each strike for the duration.</h5>")'><img src = "images/Bakasura/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Regurgitate</h4><h5>Bakasura regurgitates all of the minions consumed by his Eat Minion ability at his ground target location that Slows for 3s and Cripples enemy players. This area lasts for 5s. Bakasura&#8217;s Basic Attacks become cone attacks and he is immune to Crowd Control for a short duration. Bakasura is able to use Eat Minion on his regurgitated minions.</h5>")'><img src = "images/Bakasura/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Insatiable Hunger</h4><h5>Bakasura&#8217;s attack and movement speed temporarily increases for each enemy that he kills.</h5>")'><img src = "images/Bakasura/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Take Down</h4><h5>Bakasura leaps to his ground target location, dealing damage to all enemies in the area and increases the damage they take from all sources by 10% for 3s.</h5>
       </div>
     </main>
   </body>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Anubis Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Magical_Icon.png" class="center" alt="Magical"></div>
           <figcaption>Magical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Plague of Locusts</h4><h5>A plague of locusts bellows forth from Anubis&#8217; mouth, smothering all enemies in the area and doing damage every .5s for 3s. Anubis is immune to knockback while channeling.</h5>")'><img src = "images/Anubis/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Mummify</h4><h5>Anubis fires a bandage projectile, mummifying and stunning his target.</h5>")'><img src = "images/Anhur/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Grasping Hands</h4><h5>Anubis calls for help from the underworld as hands penetrate the ground and claw at his enemies, doing damage and Slowing every .5s for 2s.</h5>")'><img src = "images/Anhur/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Death Gaze</h4><h5>Anubis focuses all of his energy into a piercing gaze, doing damage to all enemies in the path, every 0.1 seconds for 3 seconds.</h5>")'><img src = "images/Anhur/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Sorrow</h4><h5>All of Anubis&#8217; abilities steal Physical and Magical Protection from the target and increase his Healing obtained from Magical Lifesteal. These effects stack on every tick of Anubis&#8217; abilities. Sorrow also grants Anubis an additional 30% reduction to all Crowd Control durations.</h5>")'><img src = "images/Anhur/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Plague of Locusts</h4><h5>A plague of locusts bellows forth from Anubis' mouth, smothering all enemies in the area and doing damage every .5s for 3s. Anubis is immune to knockback while channeling.</h5>
       </div>
     </main>
   </body>

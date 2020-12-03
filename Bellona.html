@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Bellona Home Page</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -33,6 +34,27 @@
           <div class ="icon"><img src = "images/Icons/Physical_Icon.png" class="center" alt="Phsical"></div>
           <figcaption>Physical</figcaption>
         </div>
+      </div>
+      <h3>Abilities</h3>
+      <div class = "row">
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Shield Bash</h4><h5>Bellona dashes forward and bashes with her shield, dealing damage and Slowing enemies. Bellona gains 1 Stack of block for each enemy god hit. Block absorbs all damage from a single Basic Attack and reflects a portion of the damage around her. Bellona then makes Basic Attacks with sword and shield until she has not taken or dealt damage in the last 5s. Every 3 successful basic attacks she gains another Stack of block (max. 3).</h5>")'><img src = "images/Bellona/Abilities/1_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Bludgeon</h4><h5>Bellona summons a hammer and spins, hitting every enemy around her and then smashing forward in an overhand attack. Each enemy god hit in the spin increases the damage of the overhand attack. Bellona now makes Basic Attacks with her hammer until she has not taken or dealt damage in the last 5s. Every hammer attack hits all enemies in melee range and only benefit from 33% of Bellona&#8217;s total Lifesteal.</h5>")'><img src = "images/Bellona/Abilities/2_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Scourge</h4><h5>Bellona summons a scourge, dealing damage to all enemies in a line. Enemies hit are Disarmed, and cannot make Basic Attacks. Bellona now makes Basic Attacks with a scourge until she has not taken or dealt damage in the last 5s. Basic Attacks have extended range (+4) and every third attack heals Bellona.</h5>")'><img src = "images/Bellona/Abilities/3_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Eagle&#8217;s Rally</h4><h5>Bellona plants a Roman flag, granting Protections and increased Physical Power to allied gods. Enemies directly under where the flag is placed take damage and are Stunned for 1s.</h5>")'><img src = "images/Bellona/Abilities/4_Icon.jpg"></button>
+        </div>
+        <div class = "abilityColumn">
+          <button onclick='changeText("<h4>Master of War</h4><h5>Upon giving or receiving hits from Basic Attacks, Bellona gains Protections and movement speed for 4s. (max. 5 stacks). </h5>")'><img src = "images/Bellona/Abilities/Passive_Icon.jpg"></button>
+        </div>
+      </div>
+      <div id="chgtext">
+        <h4>Shield Bash</h4><h5>Bellona dashes forward and bashes with her shield, dealing damage and Slowing enemies. Bellona gains 1 Stack of block for each enemy god hit. Block absorbs all damage from a single Basic Attack and reflects a portion of the damage around her. Bellona then makes Basic Attacks with sword and shield until she has not taken or dealt damage in the last 5s. Every 3 successful basic attacks she gains another Stack of block (max. 3).</h5>
       </div>
     </main>
   </body>
