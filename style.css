@@ -26,6 +26,9 @@ h3
   text-align: center;
   color: yellow;
 }
+h4{
+  color: yellow;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -56,6 +59,12 @@ li a:hover:not(.active) {
 .column {
   float: left;
   width: 16%;
+}
+@media only screen and (max-width:620px) {
+  .column{
+    width: 33%
+  }
+  
 }
 .row:after {
   content: "";
